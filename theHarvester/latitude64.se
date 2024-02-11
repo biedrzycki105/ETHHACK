@@ -1,0 +1,114 @@
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.2.0                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: latitude64.se 
+
+
+[93m[!] Missing API key for binaryedge. [0m
+
+[93m[!] Missing API key for Censys ID and/or Secret. [0m
+
+[93m[!] Missing API key for fullhunt. [0m
+
+[93m[!] Missing API key for Github. [0m
+
+[93m[!] Missing API key for Hunter. [0m
+
+[93m[!] Missing API key for Intelx. [0m
+
+[93m[!] Missing API key for PentestTools. [0m
+
+[93m[!] Missing API key for ProjectDiscovery. [0m
+
+[93m[!] Missing API key for RocketReach. [0m
+
+[93m[!] Missing API key for Securitytrail. [0m
+
+[93m[!] Missing API key for virustotal. [0m
+
+[93m[!] Missing API key for zoomeye. [0m
+An exception has occurred: Cannot serialize non-str key None
+[94m[*] Searching Anubis. 
+An exception has occurred: Cannot connect to host dns.bufferover.run:443 ssl:<ssl.SSLContext object at 0x7fd4878270c0> [Name or service not known]
+	Searching 0 results.
+[94m[*] Searching Bing. 
+[94m[*] Searching Baidu. 
+	Searching results.
+[94m[*] Searching Certspotter. 
+[94m[*] Searching Dnsdumpster. 
+[94m[*] Searching Duckduckgo. 
+[94m[*] Searching CRTsh. 
+[94m[*] Searching Hackertarget. 
+[94m[*] Searching Otx. 
+[94m[*] Searching Qwant. 
+An exception has occurred: Cannot connect to host api.sublist3r.com:443 ssl:<ssl.SSLContext object at 0x7fd487825140> [Connection refused]
+[94m[*] Searching Sublist3r. 
+An exception has occurred: Cannot connect to host www.threatcrowd.org:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.threatcrowd.org'. (_ssl.c:997)")]
+string indices must be integers
+[94m[*] Searching Threatcrowd. 
+[94m[*] Searching Rapiddns. 
+[94m[*] Searching Urlscan. 
+[94m[*] Searching Threatminer. 
+An exception has occurred: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url=URL('https://sonar.omnisint.io/all/latitude64.se?page=1')
+[94m[*] Searching Omnisint. 
+
+[*] ASNS found: 3
+--------------------
+AS13335
+AS16509
+AS23535
+
+[*] Interesting Urls found: 2
+--------------------
+https://store.latitude64.se/
+https://www.latitude64.se/
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 11
+-------------------
+13.53.111.206
+13.53.142.143
+13.53.204.104
+23.227.38.74
+52.232.83.105
+66.147.237.67
+195.74.38.176
+195.74.38.202
+2a05:d016:b16:8901:a03b:f2aa:6879:d5c5
+
+[*] Emails found: 1
+----------------------
+contact@latitude64.se
+
+[*] Hosts found: 31
+---------------------
+b2b.latitude64.se:52.232.83.105
+b2b.latitude64.se:latitude64.polr.cloud.
+b2b.latitude64.se:latitude64.polr.cloud
+distribution.latitude64.se:52.232.83.105
+latitude64.se:mail2.latitude64.se.
+latitude64.se:mail2.latitude64.se
+latitude64.se:mail.latitude64.se
+latitude64.se:mail.latitude64.se.
+mail.latitude64.se:195.74.38.202
+mail2.latitude64.se:195.74.38.202
+store.latitude64.se:23.227.38.74
+store.latitude64.se:shops.myshopify.com
+store.latitude64.se:shops.myshopify.com.
+testar.latitude64.se:195.74.38.176
+www.latitude64.se:www.se.vkube.cloud.
+www.latitude64.se:13.53.142.143, 13.53.111.206, 13.53.204.104
+www.latitude64.se:www.se.vkube.cloud
