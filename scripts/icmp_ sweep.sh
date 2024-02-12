@@ -1,5 +1,5 @@
 #!/bin/bash
-outfile=../output/sweep-$(date +%d-%m-%y-%s).txt
+outfile=../output/icmp_sweep-$(date +%d-%m-%y-%H%M%S).txt
 
 for ip in $(seq 2 50); do 
 echo "Pinging $1.$ip..."
